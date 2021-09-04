@@ -1,0 +1,33 @@
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color: grey;
+  padding: 10px;
+  
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 10px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.grid-item:hover{
+  
+  border: 10px solid white;
+  
+}
+
+a:visited{
+  color:black
+}
+
+a:link{
+color:black;
+
+}
